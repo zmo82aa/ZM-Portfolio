@@ -20,6 +20,7 @@ html{
 .topnav a {
     float: left;
     background-color: #059fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
@@ -28,12 +29,12 @@ html{
 }
 
 .topnav a:hover {
-    background-color: lightgrey;
+    background-color: white;
     color: darkviolet;
   }
 
 
-img{
+.image1{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -56,3 +57,24 @@ h3{
     text-align: center; 
     margin-top: 5px;
 }
+
+.column {
+    display: inline;
+    width: 50%;
+    padding: 15px;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.image2{
+    float: right;
+    width: 25%;
+    margin-right: 20%;
+}
+
+
+
