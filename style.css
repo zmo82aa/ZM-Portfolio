@@ -1,0 +1,58 @@
+html{
+    background-image: url(background.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+
+}
+
+.header{
+    color: white;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.topnav{
+    display:flex;
+    justify-content: center;
+}
+
+.topnav a {
+    float: left;
+    background-color: #059fff;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 100%;
+}
+
+.topnav a:hover {
+    background-color: lightgrey;
+    color: darkviolet;
+  }
+
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    padding: 25px;
+}
+
+h2{
+    color: white;
+    font-size: 50px;
+    font-family: 'Great Vibes';
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+h3{
+    color: white;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center; 
+    margin-top: 5px;
+}
