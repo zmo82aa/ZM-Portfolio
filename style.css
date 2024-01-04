@@ -109,3 +109,34 @@ h5{
     padding: 20px;
 
 }
+
+h6{
+    color: white;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center; 
+    margin-top: 5%;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5%;
+}
+
+input{
+    margin: 2.5px;
+    border: 2px solid #059fff
+}
+
+label{
+    color: white;
+}
+
+.success header{
+    color: white;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 150px;
+}
